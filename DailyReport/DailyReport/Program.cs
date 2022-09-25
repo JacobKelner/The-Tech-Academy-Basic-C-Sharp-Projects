@@ -25,7 +25,10 @@ namespace DailyReport
             int pagenum = Convert.ToInt32(pagenumber);//converts string variable into integer value
 
             Console.WriteLine("Do you need help with anything? Please answer \"true\" or \"false.\": ");//the escape backslashes allow for double quotes inside of string quotes
-            string answer = Console.ReadLine();//allows for user to input string value
+            string answr = Console.ReadLine();//assigns user input (string) to variable
+            Boolean needHelp = Convert.ToBoolean(answr);//converts user input into Boolean value
+            Boolean noHelp = Convert.ToBoolean(answr);//converts user input into Boolean value
+
 
 
             Console.WriteLine("Were there any positive experiences you'd like to share? Please give specifics.: ");
