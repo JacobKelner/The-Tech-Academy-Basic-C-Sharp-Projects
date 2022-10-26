@@ -8,10 +8,10 @@ namespace MethodSubmissionAssignment
 {
     class IntegerOperator
     {
-        public int Obj(int data, int optionalint = 10)
+        public int Obj(int data, int optionalint = 10)//method taking in 2 parameters, one being optional
         {
-            int result = optionalint + data;
-            return result;
+            int result = optionalint + data;//defines integer varaible 'result' to equal parameter one plus parameter two
+            return result;//returns result
         }
     }
 }
