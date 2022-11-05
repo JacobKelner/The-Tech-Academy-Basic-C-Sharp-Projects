@@ -10,11 +10,10 @@ namespace MethodsAndObjectAssignment
     {
         static void Main(string[] args)
         {
-            Employee employee = new Employee();
-            employee.FullNames = new List<string> { "Sample", "Student" };
-            //Employee.SayName();
-            Console.ReadLine();
-            
+            Employee employee = new Employee();//Instantiate class employee object
+            employee.FullNames = new List<string> { "Sample Student" };//Contains strings inside list calling from employee
+            employee.SayName();//calling 'SayName()' from employee obbject
+            Console.ReadLine();//Ensures console remains open
         }
     }
 }

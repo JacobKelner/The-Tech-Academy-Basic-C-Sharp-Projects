@@ -8,15 +8,15 @@ namespace MethodsAndObjectAssignment
 {
     public class Person
     {
-        public List<string> FullNames { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
+        public List<string> FullNames { get; set; }//Creates list called FullNames
+        public string FirstName { get; set; }//Property string FirstName
+        public string LastName { get; set; }//Property string LastName
         
-        public void SayName()
+        public void SayName()//Void method SayName taking in no parameters
         {
-            foreach (string names in FullNames)
+            foreach (string names in FullNames)//foreach names in FullNames
             {
-                Console.WriteLine(names);
+                Console.WriteLine("Name: " + names);//display names
             }
         }
     }
