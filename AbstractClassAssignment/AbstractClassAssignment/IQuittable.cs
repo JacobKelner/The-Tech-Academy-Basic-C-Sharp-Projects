@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace AbstractClassAssignment
 {
-    interface IQuittable
+    interface IQuittable//interface called 'IQuittable'
     {
-        void Quit(Person person);
+        void Quit();//creates void method called 'Quit()'
     }
 }
