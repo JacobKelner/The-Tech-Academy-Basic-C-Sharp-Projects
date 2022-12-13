@@ -6,18 +6,22 @@ using System.Threading.Tasks;
 
 namespace ConstructorAssignment
 {
-    public class Foo
+    public class mySampleClass
     {
-        public int year;//property/field called year
-        public string model;//property//field called model
+        public int _Age;//property/field called Age
+        public string _Name;//property/field called Name
 
-        public Foo()//creates a class constructor for the Foo class
+        public mySampleClass(): this(15, "Picasso")//no parameter constructor method 
         {
-            model = "Raptor";//define field name
-            year = 2010;//define field name
+
         }
-            
         
-    
+        public mySampleClass(int Age, string Name)//constructor with parameters
+        {
+            this._Age = Age;
+            this._Name = Name;
+        }
+
+
     }
 }
